@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_menu_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="搜索"
+        android:icon="@drawable/title_search_normal"
+        android:actionViewClass="android.widget.SearchView">
+
+    </item>
+
+
+    <item
+        android:id="@+id/item_menu_hos"
+        android:showAsAction="never"
+        android:title="查看历史记录">
+
+    </item>
+    <item
+        android:id="@+id/item_menu_local"
+        android:showAsAction="never"
+        android:title="查看本地图片">
+
+    </item>
+</menu>

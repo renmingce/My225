@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_main" />
+    <TextView
+        android:id="@+id/tv_main_word"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#D4D4D4"
+        android:layout_centerInParent="true"
+        android:text="A"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:visibility="gone"/>
+    <com.example.administrator.quickindex.QuickIndex
+
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:background="#ff0000"
+        android:layout_alignParentRight="true"
+        android:id="@+id/qi_main"
+        ></com.example.administrator.quickindex.QuickIndex>
+</RelativeLayout>
